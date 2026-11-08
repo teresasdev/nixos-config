@@ -85,6 +85,9 @@
     emacs-pgtk
     # kitty terminal
     kitty
+    nodejs_26
+    vscode
+    bruno
     ];
   };
 
@@ -162,4 +165,5 @@
 
   # Hyprland alongside GNOME (choose at login)
   programs.hyprland.enable = true;
+  
 }
