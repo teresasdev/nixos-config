@@ -76,7 +76,7 @@
   users.users."teresascav" = {
     isNormalUser = true;
     description = "Teresa Scavotto";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
     #  thunderbird
     # git package
