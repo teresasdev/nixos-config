@@ -94,6 +94,9 @@
   # Install firefox.
   programs.firefox.enable = true;
 
+  # Docker, for local dev containers (API + MongoDB)
+  virtualisation.docker.enable = true;
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
